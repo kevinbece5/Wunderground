@@ -1,6 +1,6 @@
 const http = require('http');
 const https = require('https');
-const api = require('./api.json');
+const api = require('./api.key.json');
 
 // Print out temp details
 function printWeather(weather) {
